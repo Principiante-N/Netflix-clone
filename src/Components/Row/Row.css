@@ -1,0 +1,48 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.movies{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.movie{
+    max-height: 230px;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s all ease-in-out;
+}
+.movie:hover{
+    transform: scale(1.1);
+}
+.movies::-webkit-scrollbar{
+    display: none;
+}
+
+.smallMovie{
+    max-height:100px;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s all ease-in-out;
+}
+.smallMovie:hover{
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width:600px) {
+   .movie{
+       max-height: 130px;
+   }
+h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+}
+ }
+  

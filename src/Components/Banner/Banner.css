@@ -1,0 +1,116 @@
+.banner{
+    /* background-image: url("https://wallpaperaccess.com/full/1605477.jpg"); */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+   
+    
+}
+.content{
+    max-width: 550px;
+}
+
+.title{
+    font-size: 60px;
+    /* font-family: 'Fruktur', cursive; */
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner .content h4{
+    color: rgba(225, 225, 2555, 0.5);
+    font-weight: 500;
+}
+.banner .content h4 span{
+    padding: 0 10px ;
+    border-right: 1px solid rgba(225, 225, 2555, 0.5);
+}
+.banner .content h4 span:first-child{
+   padding-left: 0;
+}
+.banner .content h4 span:last-child{
+    border-right: none;
+    text-transform: uppercase;
+}
+
+
+.banner .content h4 span i{
+    background-color: #de0611;
+    color: #fff;
+    padding: 0 8px;
+    display: inline-block;
+    font-style: normal;
+    border-radius: 2px;
+}
+
+p{
+ font-size: 1em;
+ font-weight: 300;
+    line-height: 1.7em;
+    color: #fff;
+    margin: 10px 0 20px;
+    letter-spacing: 1.2px;
+}
+
+button{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #de0611;
+    color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor:pointer;
+}
+button:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(225, 225, 2555, 0.51);
+    transition: 0.5s ease-in-out;
+}
+button:hover:nth-child(2){
+    background-color: #de0611;
+}
+
+
+
+
+
+ 
+
+ 
+@media (max-width:991px) {
+    .banner{
+        padding: 4px 2px;
+    }
+    /* .content{
+        width: 100px;
+    } */
+ }
+ 
+
+ @media (max-width:600px) {
+   .banner{
+       padding: 78px 13px 0px;
+       min-height: 70vh;
+   }
+   p{
+       font-size: 0.8em;
+   }
+   .content {
+    max-width: 350px;
+
+}
+ }
